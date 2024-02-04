@@ -1,0 +1,231 @@
+div{
+    width: fit-content;
+}
+
+div p{
+    text-align: center;
+}
+
+/*----------------------------------------*/
+
+.table, .table tr, .table td{
+    border: 1px solid #6395ff;
+    border-collapse: collapse;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.table{
+    width: 500px;
+    box-sizing: border-box;
+}
+
+.table thead{
+    background-color:  #dae1f8;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table tfoot{
+    background-color: #5776b1;
+    color: #fff;
+    text-align: right;
+}
+
+/*-------------------------------*/
+.schedule{
+    font-size: 14px;
+}
+
+table.schedule{
+    border: 5px solid #000;
+}
+
+table.schedule thead{
+    border: 5px solid #000;
+}
+
+.schedule thead{
+    text-align: center;
+    white-space: normal;
+}
+
+.schedule thead tr:first-child th:nth-child(4){
+    width: 200px;
+}
+
+.schedule thead tr:first-child th:nth-child(-n+3),
+.schedule tbody tr td:nth-child(-n+1),
+.schedule tbody tr:nth-child(odd) td:nth-child(-n+2),
+.schedule tbody tr:first-child td:nth-child(-n+3){
+    background-color: #d9e1f2;
+}
+
+.schedule thead tr th:nth-last-child(-n+3){
+    background-color: #e2efda;
+}
+
+.schedule thead th{
+    padding: 5px;
+}
+
+.schedule thead tr:first-child th:first-child,
+.schedule thead tr:first-child th:nth-last-child(-n+2){
+    width: 40px;
+}
+
+.schedule td.blue,
+.schedule .blue th:nth-child(-n+3){
+    background-color: #d9e1f2;
+}
+
+.schedule .green th:nth-last-child(-n+3){
+    background-color: #e2efda;
+}
+
+.schedule tr:first-child td:first-child{
+    writing-mode: vertical-rl;
+    text-align: center;
+    text-orientation: upright;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.schedule thead tr:nth-child(2){
+    font-size: 20px;
+}
+
+.schedule tr:first-child td:nth-child(-n+3),
+.schedule tr:nth-child(odd) td:nth-child(-n+2),
+.schedule tr:nth-child(even) td:nth-child(-n+1),
+.schedule tr td:nth-last-child(-n+2){
+    text-align: center;
+}
+
+.schedule, .schedule thead th:nth-child(-n+5) {
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+
+.schedule thead tr:first-child th:last-child{
+    border-style: solid solid solid dashed;
+    border-width: 3px 3px 3px 1px;
+}
+
+.schedule thead tr:first-child th:nth-last-child(2){
+    border-style: solid dashed solid solid;
+    border-width: 3px 1px 3px 3px;
+}
+
+.schedule tbody tr td:nth-child(-n+2),
+.schedule tbody tr:nth-child(odd) td:nth-child(-n+3),
+.schedule tbody tr:first-child td:nth-child(-n+4) {
+    border: 3px solid #000;
+}
+
+.schedule tbody tr td:last-child{
+    border-style: solid solid solid dashed;
+    border-width: 3px 3px 3px 1px;
+}
+
+.schedule tbody tr td:nth-last-child(2){
+    border-style: solid dashed solid solid;
+    border-width: 3px 1px 3px 3px;
+}
+
+.schedule tbody tr:first-child td:nth-child(3),
+.schedule tbody tr:nth-child(odd):not(:first-child) td:nth-child(2){
+    border-style: solid solid dashed solid;
+    border-width: 3px 3px 1px 3px;
+}
+
+.schedule tbody tr:nth-child(even) td:nth-child(1){
+    border-style: dashed solid solid solid;
+    border-width: 1px 3px 3px 3px;
+}
+
+.schedule tbody tr td span:nth-child(2){
+    padding: 0px 0px 0px 20px;
+}
+
+/*---------------------------------------*/
+
+table.server{
+    border-spacing: 0;
+    text-align: center;
+}
+
+table.server td, table.server th{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+.server thead{
+    background-color: #3e7db9;
+    color: #fff;
+}
+
+.server tbody tr td:nth-child(2){
+    word-wrap: break-word;
+    width: 230px;
+}
+
+.server tbody tr td:nth-child(2){
+    text-align: left;
+}
+
+.server tbody tr td:nth-child(2) span:nth-child(2){
+    color: #8f8c8c;
+}
+
+.server tbody tr td:nth-child(5) span{
+    display: inline-block;
+    background-color: #3e7db9;
+    width: 80px;
+    height: 20px;
+    padding: 5px 0px 0px 0px;
+    border-radius: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+.server tbody tr:nth-child(odd){
+    background-color: #fff;
+}
+
+.server tbody tr:nth-child(even){
+    background-color: #d4e5f4;
+}
+
+.server tbody tr:hover{
+    background-color: #c6defe;
+}
+
+.server tbody tr td:last-child span{
+    background-color: #3e7db9;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.server tbody tr td:last-child span.value-1 {
+    background-color: #be443b;
+  }
+  
+  .server tbody tr td:last-child span.value-2 {
+    background-color: #ae7100;
+  }
+  
+  .server tbody tr td:last-child span.value-3 {
+    background-color: #05971f;
+  }
+  
+  .server tbody tr td:last-child span.value-4 {
+    background-color: #3e7db9;
+  }
+  
+  .server tbody tr td:last-child span.value-5 {
+    background-color: #032668;
+  }
